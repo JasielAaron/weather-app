@@ -1,50 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather-App</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>Weather Dashboard</header>
-
-  <main>
-    <!--Where the user can enter city prefrence and click submit-->
-    <div class="search">
-      <h3 class="titlecity">Search By City:</h3>
-      <form id="user-form" class="card-body">
-        <input name="cityname" id="cityname" type="text" autofocus="true" class="cityname"/>
-        <div><button type="submit" id="submit-btn">Search</button></div>
-      </form>
-    </div>
-      <!--Current Weather will be displayed -->
-      <div><section id="current"></section></div>
-  
-    
-
-    </section>
-   <!--5 day forecast will be displayed-->
-    <section id="forecast">
-
-    </section>
-
-    <!--Will display history-->
-    <h3>Search History:</h3>
-    <section id="searchhistory">
-      
-
-    </section>
-    
-
-   
-
-    
-    </div>
-  </main>
-  <!--jQuery-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!--JavaScript-->
-  <script src="script.js"></script>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <div id="current"></div>
+        <div id="forecast"></div>
+        <div class="user">
+            <input type="text" id="cityname" placeholder="Enter city name">
+            <button id="submit-btn">Get Weather</button>
+        </div>
+        <div id="searchhistory"></div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
