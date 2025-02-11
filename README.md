@@ -1,7 +1,29 @@
-# jasielweather-app
+# Weather Application
 
-[<linktodeployedapplication>] (https://jasielaaron.github.io/weather-app/)
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-This website will let you view the weather in the city you choose to search for. You can enter the city you would like to see and it will tell you the details of the next 5 days as well.
+  ## Description
 
-![screenshotofmychallenge](/assets/Screenshot%202024-02-07%20at%207.01.14 PM.png)
+  This project allows you to enter a city name and check the weather forecast for the following five days.
+
+  ## Deployed Application URL
+  
+  https://jasielaaron.github.io/weather-app/
+
+  ## Screenshot
+  ![screenshotofmychallenge](./assets/Weather%20Application%202.png)
+  ![screenshotofmychallenge](./assets/Weather%20application%203.png)
+  ![screenshotofmychallenge](./assets/Weather%20Application.png)
+
+  ## Table of Contents
+  * [Languages & Dependecies](#languagesanddependencies)
+
+
+  ## Languages & Dependecies
+  JavaScript, HTML, CSS, BootStrap, Third Party APIS, JSON
+
+  
+
+  ## Questions 
+
+  Further questions send them [jasiel.7@icloud.com](mailto:jasiel.7@icloud.com?subject=[GitHub%20Dev20Connect])
